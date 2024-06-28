@@ -1,0 +1,19 @@
+/* App.css */
+
+/* Center content vertically and horizontally */
+.min-h-screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Adjust container width for responsiveness */
+  .max-w-lg {
+    max-width: 28rem; /* Adjust as needed for different screen sizes */
+  }
+  
+  /* Responsive input and button */
+  input, button {
+    width: 100%; /* Full width on smaller screens */
+  }
+  

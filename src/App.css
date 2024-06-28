@@ -1,0 +1,52 @@
+
+
+/* src/App.css */
+.weather-container {
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom right, #00c6ff, #0072ff);
+  color: white;
+}
+
+.weather-icon {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.weathericon.sun {
+  content: url('vite-project\icons\sun.png');
+}
+
+.weathericon.clouds {
+  content: url('vite-project\icons\cloud.png');
+}
+
+.weathericon.rain {
+  content: url('vite-project\icons\rain.png');
+}
+
+.weathericon.snow {
+  content: url('vite-project\icons\snow.png');
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 640px) {
+  .weather-container {
+    padding: 10px;
+  }
+
+  .weather-icon {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .weather-container {
+    padding: 5px;
+  }
+
+  .weather-icon {
+    font-size: 30px;
+  }
+}
